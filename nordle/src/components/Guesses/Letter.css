@@ -1,0 +1,15 @@
+p {
+    border:1px solid black;
+    padding:5px; 
+    border-radius:2px;
+    display:inline-block;
+    width:100px;
+    height:100px;
+    font-size:56pt;
+    text-align:center;
+}
+
+p.correct{background-color:aqua;}
+p.included{background-color:yellow;}
+p.wrong{background-color:red; color:white;}
+p.notguessed{background-color:aliceblue;}
