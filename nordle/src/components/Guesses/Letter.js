@@ -5,7 +5,7 @@ function Letter(props) {
     console.log(props.guessed)
     console.log(props['guessed'])
     if(!props.letter)
-        return <p className='notGuessed'></p>
+        return <p className='notGuessed'>&nbsp;</p>
     if(!props.guessed){
         console.log("Not guessed")
         return <p className='notGuessed'>{props.letter}</p>
