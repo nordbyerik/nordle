@@ -9,7 +9,7 @@ function Word(props) {
         letterProps.push({
             'index':i,
             'word':props.word,
-            'letter':props.guess[i],
+            'letter':props.guess[i], //Could just pass the word and have it figure out the letter based on index
             'guessed':true,
         });
         console.log(i);

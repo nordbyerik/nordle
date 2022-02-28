@@ -13,5 +13,5 @@ p {
 
 p.correct{background-color:lightgreen;}
 p.included{background-color:rgb(255, 245, 152);}
-p.wrong{background-color:lightcoral; color:white;}
+p.wrong{background-color:lightcoral;}
 p.notguessed{background-color:aliceblue;}
